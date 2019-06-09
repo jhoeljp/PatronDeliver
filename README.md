@@ -7,3 +7,4 @@ setup pipenv for website in django at localhost http://127.0.0.1:8000/
 
 6/8/2018
 hello world, set up views for pages
+templates. hello.html
