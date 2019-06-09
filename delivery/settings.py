@@ -27,7 +27,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
+#templates/home.html
+TEMPLATES = [
+    {
+        'DIRS': [os.path.join(BASE_DIR, 'templates')], # new
+    },
+]
 # Application definition
 
 INSTALLED_APPS = [
