@@ -25,7 +25,7 @@ SECRET_KEY = '-dqj00tbxr+!w49&t-opigw1vka#@omrh&$j$pf3#7jha3gfhg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [*]
 
 #templates/home.html
 TEMPLATES = [
