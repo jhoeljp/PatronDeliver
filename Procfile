@@ -1,1 +1,1 @@
-web: gunicorn PatronDeliver.wsgi --log-file -
+web: gunicorn delivery.wsgi --log-file -
