@@ -12,3 +12,7 @@ templates. hello.html
 6/9/2019
 added base.html and test.py
 0 test completed, to fix soon
+
+6/18/2019
+fixed rerouting on base.html
+added static sources referencing under /static repository
