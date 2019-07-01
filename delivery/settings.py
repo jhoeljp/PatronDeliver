@@ -47,10 +47,10 @@ INSTALLED_APPS = [
 ]
 
 #enable javascript
-STATIC_URL = '/static/'
+STATIC_URL = '/media/'
 MEDIA_URL = '/static/'
 # STATIC_ROOT = "static/"
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIAFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
     'static/',
@@ -58,7 +58,7 @@ MEDIAFILES_DIRS = [
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "media"),
-    'static/',
+    'media/',
 ]
 
 MIDDLEWARE = [
