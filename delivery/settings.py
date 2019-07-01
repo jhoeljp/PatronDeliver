@@ -58,7 +58,7 @@ MEDIAFILES_DIRS = [
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "media"),
-    'static/',
+    'media/',
 ]
 
 MIDDLEWARE = [
